@@ -1,0 +1,84 @@
+{
+  "appName": "NodeZero",
+  "tagline": "Your keys. Your vault.",
+  "unlock": "Unlock",
+  "lock": "Lock Vault",
+  "settings": "Settings",
+  "vault": "Vault",
+  "addEntry": "Add Entry",
+  "editEntry": "Edit Entry",
+  "deleteEntry": "Delete Entry",
+  "search": "Search credentials...",
+  "username": "Username",
+  "password": "Password",
+  "url": "URL / Website",
+  "title": "Title",
+  "notes": "Notes",
+  "save": "Save",
+  "cancel": "Cancel",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "generate": "Generate",
+  "generatePassword": "Generate Password",
+  "fillCredentials": "Fill Credentials",
+  "saveLogin": "Save This Login",
+  "openVault": "Open NodeZero",
+  "onboarding": {
+    "welcome": "Welcome to NodeZero",
+    "welcomeDesc": "A decentralized password manager. Your vault is encrypted and synced across your devices — only you hold the keys.",
+    "createPasskey": "Create Your Passkey",
+    "createPasskeyDesc": "Your passkey is stored on this device and used to derive your vault encryption key via WebAuthn PRF.",
+    "registerBtn": "Register Passkey",
+    "mnemonicTitle": "Your Recovery Phrase",
+    "mnemonicDesc": "Write down these 12 words in order. They are the only way to recover your vault on a new device.",
+    "mnemonicWarning": "Never share these words. NodeZero cannot recover them for you.",
+    "mnemonicVerify": "Verify Recovery Phrase",
+    "mnemonicVerifyDesc": "Confirm 3 random words to prove you've saved your phrase.",
+    "verifyWord": "Word #{{index}}",
+    "verifyError": "Incorrect word. Please check your recovery phrase.",
+    "finishBtn": "Finish Setup",
+    "step": "Step {{current}} of {{total}}"
+  },
+  "unlock": {
+    "title": "Unlock NodeZero",
+    "desc": "Authenticate with your passkey to access your vault.",
+    "btn": "Unlock with Passkey",
+    "recovery": "Recover with phrase",
+    "error": "Authentication failed. Please try again."
+  },
+  "recovery": {
+    "title": "Recover Your Vault",
+    "desc": "Enter your 12-word recovery phrase to access your vault.",
+    "placeholder": "Enter recovery phrase (space-separated)",
+    "deriving": "Deriving key... (~30s)",
+    "btn": "Recover",
+    "backBtn": "Back to Unlock",
+    "error": "Invalid phrase or decryption failed."
+  },
+  "generator": {
+    "length": "Length",
+    "uppercase": "Uppercase (A-Z)",
+    "lowercase": "Lowercase (a-z)",
+    "numbers": "Numbers (0-9)",
+    "symbols": "Symbols (!@#...)",
+    "strength": "Strength"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "sync": {
+    "syncing": "Syncing...",
+    "synced": "Synced",
+    "error": "Sync failed",
+    "lastSync": "Last sync: {{time}}"
+  },
+  "errors": {
+    "prfNotSupported": "WebAuthn PRF is not supported on this device/browser. Use recovery phrase.",
+    "noVault": "No vault found. Please complete onboarding.",
+    "decryptFailed": "Decryption failed. Wrong key or corrupted data.",
+    "networkError": "Network error. Check your connection."
+  }
+}

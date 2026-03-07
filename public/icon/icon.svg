@@ -1,0 +1,29 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d0f1a"/>
+      <stop offset="100%" stop-color="#080a12"/>
+    </linearGradient>
+    <linearGradient id="shield-grad" x1="34" y1="22" x2="94" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="lock-grad" x1="48" y1="52" x2="80" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="128" height="128" rx="28" fill="url(#bg-grad)"/>
+  <!-- Shield shape -->
+  <path d="M64 18L30 32V62C30 84 44.5 103 64 110C83.5 103 98 84 98 62V32L64 18Z" fill="url(#shield-grad)" opacity="0.9"/>
+  <!-- Shield inner glow -->
+  <path d="M64 24L36 36V62C36 81 48.5 97 64 103C79.5 97 92 81 92 62V36L64 24Z" fill="url(#bg-grad)" opacity="0.6"/>
+  <!-- Lock body -->
+  <rect x="50" y="60" width="28" height="22" rx="4" fill="url(#lock-grad)"/>
+  <!-- Lock shackle -->
+  <path d="M54 60V52C54 46.5 58.5 42 64 42C69.5 42 74 46.5 74 52V60" stroke="url(#lock-grad)" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Keyhole -->
+  <circle cx="64" cy="70" r="3.5" fill="#0d0f1a"/>
+  <rect x="62.5" y="72" width="3" height="5" rx="1.5" fill="#0d0f1a"/>
+</svg>
