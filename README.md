@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://www.nodezero.top">Website</a> &nbsp;·&nbsp;
   <a href="https://chromewebstore.google.com/detail/nodezero/beecpjkkjgmnmpjjmilphcchppabgcgf">Chrome Web Store</a> &nbsp;·&nbsp;
-  <a href="https://github.com/abc-368/NodeZero/issues">Issues</a>
+  <a href="https://nodezero.top/contact">Contact</a>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 > While all cryptographic operations use audited libraries and follow established standards,
 > the extension has not yet undergone a formal third-party security audit. Exercise caution:
 > avoid storing credentials you cannot afford to lose without a backup, and always keep your
-> 12-word recovery phrase in a safe place. Report issues on [GitHub](https://github.com/abc-368/NodeZero/issues).
+> 12-word recovery phrase in a safe place. Report issues via our [contact page](https://nodezero.top/contact).
 
 ---
 
@@ -183,7 +183,7 @@ NodeZero adds transparent end-to-end encryption on top of Gmail. Both sender and
 ### Build from Source
 
 ```bash
-git clone https://github.com/abc-368/NodeZero.git
+git clone <repository-url>
 cd NodeZero
 npm install
 npm run build        # → .output/chrome-mv3/
